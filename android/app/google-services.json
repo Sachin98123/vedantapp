@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545162892841",
+    "project_id": "ecomm-prj-sachin",
+    "storage_bucket": "ecomm-prj-sachin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545162892841:android:8a5e73f4ce6b1bbed2ee38",
+        "android_client_info": {
+          "package_name": "com.example.vedantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545162892841-78tasi0ncrtfpdp0r7qc2u6oaaa6lqku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4SNHRfQsxjiNyTrTwqxZkPgRPOEo8GFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545162892841-78tasi0ncrtfpdp0r7qc2u6oaaa6lqku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
