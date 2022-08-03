@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 class LoginView extends StatelessWidget {
@@ -17,7 +15,7 @@ class LoginView extends StatelessWidget {
         //     splashColor: Colors.orangeAccent,
         //     onPressed: () {},
         //     icon: const Icon(
-        //       Icons.backspace,
+        //       Icons.,
         //       color: Colors.deepOrangeAccent,
         //     )),
         title: const Center(child: Text('Log In Page')),
@@ -48,8 +46,22 @@ class LoginView extends StatelessWidget {
           ),
           const TextField(
             keyboardType: TextInputType.emailAddress,
-            decoration: InputDecoration(icon: Icon(Icons.email)),
+            decoration: InputDecoration(
+                icon: Icon(
+                  Icons.email,
+                ),
+                hintText: 'Enter your Email Here!'),
             style: TextStyle(color: Colors.black26),
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          const TextField(
+            obscureText: true,
+            decoration: InputDecoration(
+              icon: Icon(Icons.password_rounded),
+              hintText: "Enter your Password here!",
+            ),
           ),
         ],
       ),
