@@ -50,7 +50,7 @@ class LoginView extends StatelessWidget {
             keyboardType: TextInputType.emailAddress,
             decoration: InputDecoration(icon: Icon(Icons.email)),
             style: TextStyle(color: Colors.black26),
-          )
+          ),
         ],
       ),
     );
