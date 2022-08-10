@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vedantapp/views/component/new_arrival.dart';
 import 'package:vedantapp/views/component/search_form.dart';
-import 'package:vedantapp/views/register_view.dart';
+import 'package:vedantapp/views/login_view.dart';
 
 class HomePagee extends StatefulWidget {
   const HomePagee({Key? key}) : super(key: key);
@@ -103,7 +103,10 @@ class _HomePageeState extends State<HomePagee> {
           BottomNavigationBarItem(
             label: "love ",
             icon: IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context)
+                    .pushNamedAndRemoveUntil('/gotologin/', (route) => false);
+              },
               icon: const Icon(Icons.favorite_border_rounded),
             ),
           ),

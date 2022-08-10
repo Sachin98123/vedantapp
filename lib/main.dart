@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:vedantapp/constant/routes.dart';
-import 'package:vedantapp/details/details_screen.dart';
 import 'package:vedantapp/views/home_view.dart';
+import 'package:vedantapp/views/login_view.dart';
+import 'package:vedantapp/views/ragister_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePagee(),
+      home: const LoginView(),
+      routes: {
+        '/gotologin/': (context) => const LoginView(),
+        '/gotohome/': (context) => const HomePagee(),
+        '/gotoregister/':(context)=>const RegisterView(),
+      },
     );
   }
 }
