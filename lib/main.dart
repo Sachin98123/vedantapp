@@ -4,6 +4,7 @@ import 'package:vedantapp/views/login_view.dart';
 import 'package:vedantapp/views/ragister_view.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/gotologin/': (context) => const LoginView(),
         '/gotohome/': (context) => const HomePagee(),
-        '/gotoregister/':(context)=>const RegisterView(),
+        '/gotoregister/': (context) => const RegisterView(),
       },
     );
   }
